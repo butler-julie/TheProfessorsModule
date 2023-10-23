@@ -6,7 +6,7 @@ Author: Julie Butler
 
 Date Created: October 22, 2023
 
-Last Modifed: October 22, 2023
+Last Modifed: October 23, 2023
 
 The goal of this website is to give physics professors and other physics educators the knowledge they need to successfully implement the DSECOP modules (located [here](https://github.com/GDS-Education-Community-of-Practice/DSECOP/tree/main)) into their undergraduate physics courses. 
 
