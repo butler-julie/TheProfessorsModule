@@ -13,14 +13,19 @@ There are two ways to create a new Google Colab notebook. First, Google Colab is
 
 ![Colab Pop-Up](https://github.com/butler-julie/TheProfessorsModule/blob/main/ColabStart.png?raw=true)
 
-The second way to access Google Colab is through Google Drive, which an be accessed through [https://drive.google.com/drive/u/0/my-drive](https://drive.google.com/drive/u/0/my-drive). 
+The second way to access Google Colab is through Google Drive, which an be accessed through [https://drive.google.com/drive/u/0/my-drive](https://drive.google.com/drive/u/0/my-drive). Once on Google Drive, the "New" button, followed by "More" provides an option to create a blank notebook in Google Colab.
+
+![Google Drive Menu](https://github.com/butler-julie/TheProfessorsModule/blob/main/Drive.png?raw=true)
+
+The below video walks through both methods of accessing Google Drive. Note that differences in operating systems and browsers will cause differences from the set-up in the video, but the steps will be the same no matter the operating system or browser.
 
 (INSERT VIDEO HERE)
 
 ## How to Use Google Colab
 
+A Google Colab notebook is build of cells. Some of the cells are for executable Python code, and some of the cells are for compiled Markdown text. Google provides an overview of creating a Colab notebook [here](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) and an overview of Markdown [here](https://colab.research.google.com/notebooks/markdown_guide.ipynb). Anther useful resource for learning how to use Google Colab was written by Maxim Ziatdinov & Mohammad Soltanieh-ha and is avliable [here](https://colab.research.google.com/github/soltaniehha/Intro-to-Colab/blob/main/Colab-Intro.ipynb#scrollTo=X1eAzUL-twns). A Python tutorial is outside of the scope of this website, but many useful Python resources for beginners are aviable in the "Further Resources" section of this website.
+
+The below video walks through the basics of creating text cells in a Colab notebook and compiling them and creating code cells and executing them.
+
 (INSERT VIDEO HERE)
 
-## More Google Colab Practice
-
-(INSERT LINKS HERE)
