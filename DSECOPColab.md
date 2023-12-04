@@ -1,7 +1,7 @@
 # Running DSECOP Modules with Google Colab
 
 ## Opening a Module in Google Colab
-
+At the top of every notebook in the DSECOP GitHub repository is a small icon which says "Open in Colab". Clicking this link opens the notebook in Google Colab and allows you to edit the notebook and execute the code
 (INSERT VIDEO HERE)
 
 ## Porting a Module to Your Google Drive Account
