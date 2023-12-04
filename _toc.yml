@@ -8,14 +8,9 @@ parts:
     chapters:
     - file: GitHub.md
     - file: GoogleColab.md
-    - file: JupyterNotebook.md
-    - file: ColabVsJupyter.md
   - caption: Google Colab
     chapters:
     - file: DSECOPColab.md
-  - caption: Jupyter Notebooks
-    chapters:
-    - file: DSECOPJupyter.md
   - caption: Tips and Advice
     chapters:  
     - file: TipsAndAdvice.md
