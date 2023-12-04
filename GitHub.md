@@ -13,8 +13,12 @@ Each folder in this repository represents a different module. For this website, 
 ## Modules Contents on GitHub
 Each of the modules found on GitHub has three main components: a README file which provides a description of the modules with learing outcomes and suggestions from the developer, a data set (usually with a .tsv, .csv, or .txt file ending), and notebooks which named numerically in the order they are to be completed. The contents of the Introduction to Data Science Libraries are as follows:
 
-~[Introduction to Data Science Libraries](https://github.com/butler-julie/TheProfessorsModule/blob/main/IntroDataScienceLibraries.png?raw=true)
+![Introduction to Data Science Libraries](https://github.com/butler-julie/TheProfessorsModule/blob/main/IntroDataScienceLibraries.png?raw=true)
 
 There is only one notebook in this module (01_introduction_to_data_science_libraries.ipynb). If there was a second notebook in this module to be completed after the first its name would start with a "02" prefix, the third notebook with a "03" prefix, and so on. The data file for this module is called "nuclear_data.tsv" and contains the data used by the notebook. The third file of this module, README.md, is a description of the module provided by the developer. For every module the README file will automatically open below the contents of the module, as shown in the below image.
+
+![README Location](https://github.com/butler-julie/TheProfessorsModule/blob/main/README.png?raw=true)
+
+To access either the notebooks or the 
 
 ## Further GitHub Resources
