@@ -39,4 +39,12 @@ The below video walks through the process of downloading the data file from GitH
 
 In terms of distributing the modules to students, there are to main options. First, the DSECOP GitHub page is publically avaliable. You could direct students to the specific module you wish to implement and give the students directions similar to the ones provided on this website in order to get the modules running on their Google accounts. This method works well if you wish to run the module as is with no changes. 
 
-Alternatively, once you have the module on your Google account you can use Google's link sharing system to provide a link to students. 
+Alternatively, once you have the module on your Google account you can use Google's link sharing system to provide a link to students. Clicking the "Share" button in the upper right corner of the Colab screen will bring up a pop-up with link sharing options. First, you need to change access from "Restricted" to "Anyone with the link" so you do not have to individually share the notebook with every student.
+
+![Colab Share Menu 1](https://github.com/butler-julie/TheProfessorsModule/blob/main/Google%20Share%201.png?raw=true)
+
+Next, you want to make sure the access level is set to "Viewer" so the students cannot change your copy of the notebook. This is the default but its good to make sure.
+
+![Colab Share Menu 2](https://github.com/butler-julie/TheProfessorsModule/blob/main/Google%20Share%202.png?raw=true)
+
+Students can then create a copy of the notebook in their own Google Drive account to edit. The data files can be distributed through email, a virtual classroom management system, or through Google link sharing as well. This method of sharing works well if you want to change the modules to better reflect your class and learning goals.
