@@ -17,6 +17,10 @@ The below video walks you through the process of taking a modules from the DSECO
 
 Most of the modules come with a data file that is needed by the notebooks. For example, the Introduction to Data Science Libraries module has one data file, nuclear_data.tsv, which is used in the module's notebook. This file needs to be downloaded from GitHub and then uploaded to your Google Drive account in order be used by the Colab notebook.
 
+To download a single data file from GitHub, the easiest way is to click on the data file in the GitHub file explorer (described on the GitHub page of this website), and use the three dots menu at the top of the data file preview to download the file, shown in the below image.
+
+![Download Data File](https://github.com/butler-julie/TheProfessorsModule/blob/main/DownloadDataFile.png?raw=true)
+
 (INSERT VIDEO HERE)
 
 ## Distributing the Module to Students
