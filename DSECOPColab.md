@@ -37,4 +37,6 @@ The below video walks through the process of downloading the data file from GitH
 
 ## Distributing the Module to Students
 
-(INSERT VIDEO HERE)
+In terms of distributing the modules to students, there are to main options. First, the DSECOP GitHub page is publically avaliable. You could direct students to the specific module you wish to implement and give the students directions similar to the ones provided on this website in order to get the modules running on their Google accounts. This method works well if you wish to run the module as is with no changes. 
+
+Alternatively, once you have the module on your Google account you can use Google's link sharing system to provide a link to students. 
