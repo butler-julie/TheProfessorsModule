@@ -9,9 +9,13 @@ However, note that the notebook is currently in "Playground" mode. You can edit 
 
 Once you click the button you should get a pop-up to open the copy in a new tab. This copy can now be edited, changed, and saved to your Google Drive account and moved around your Google Drive account just like any other file.
 
+The below video walks you through the process of taking a modules from the DSECOP GitHub website and creating an editable copy which will save your work on your Google Drive account.
+
 (INSERT VIDEO HERE)
 
 ## Porting the Data to Your Google Drive Account
+
+Most of the modules come with a data file that is needed by the notebooks. For example, the Introduction to Data Science Libraries module has one data file, nuclear_data.tsv, which is used in the module's notebook. This file needs to be downloaded from GitHub and then uploaded to your Google Drive account in order be used by the Colab notebook.
 
 (INSERT VIDEO HERE)
 
