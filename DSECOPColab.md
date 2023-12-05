@@ -21,6 +21,18 @@ To download a single data file from GitHub, the easiest way is to click on the d
 
 ![Download Data File](https://github.com/butler-julie/TheProfessorsModule/blob/main/DownloadDataFile.png?raw=true)
 
+Once the data file is downloaded you can upload it to Google Drive using the "New" button in the top left corner and the "File upload" option. In the Colab notebook you will have to change a code cell to tell the notebook where to find the data file. For example, in the Introduction to Data Science Libraries notebook, the code to change to find the data file looks like this.
+
+![Data File Location](https://github.com/butler-julie/TheProfessorsModule/blob/main/ColabImports.png?raw=true)
+
+As it is currently written, the code looks for the data file in the main Google Drive folder (/content/gdrive/My Drive/), which is the folder your see first when you go to [Google Drive](https://drive.google.com/drive/u/0/my-drive). If you placed the data file in a sub-folder, you can edit this line of code by adding the names of the sub-folder(s) after the last /. Thus the code could become:
+
+```python
+data_dir = '/content/gdrive/My Drive/SubFolder1/SubFolder2/'
+```
+
+The below video walks through the process of downloading the data file from GitHub, uploading it to Drive, and changing the Colab notebook to reflect where the data file is located.
+
 (INSERT VIDEO HERE)
 
 ## Distributing the Module to Students
