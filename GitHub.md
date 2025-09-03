@@ -32,10 +32,6 @@ To access either the notebooks or the data set, you have to click on the name. F
 
 ![Notebook Preview](https://github.com/butler-julie/TheProfessorsModule/blob/main/NotebookReview.png?raw=true)
 
-A video walkthrough of accessing the DSECOP modules on GitHub is provided below. Note that there may be some differences in appearance with different browsers and operating systems, but the steps of accessing the modules will be the same. You will need to have a GitHub account to easily access the modules but you can create one for free.
-
-![GitHub Tutorial Video](https://github.com/butler-julie/TheProfessorsModule/blob/main/GitHub.mp4?raw=true)
-
 
 
 ## Further GitHub Resources
