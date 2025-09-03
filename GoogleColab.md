@@ -20,14 +20,10 @@ The second way to access Google Colab is through Google Drive, which can be acce
 
 ![Google Drive Menu](https://github.com/butler-julie/TheProfessorsModule/blob/main/Drive.png?raw=true)
 
-The video below walks through both methods of accessing Google Drive. Note that differences in operating systems and browsers will cause differences from the setup in the video. However, the steps will be the same regardless of the operating system or browser.
-
-(INSERT VIDEO HERE)
-
 ## How to Use Google Colab
 
 A Google Colab notebook is built of cells. Some of the cells are for executable Python code, and some of the cells are for compiled Markdown text. Google provides an overview of creating a Colab notebook [here](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) and an overview of Markdown [here](https://colab.research.google.com/notebooks/markdown_guide.ipynb). Maxim Ziatdinov and Mohammad Soltanieh-ha wrote another helpful resource for learning how to use Google Colab, and is available [here](https://colab.research.google.com/github/soltaniehha/Intro-to-Colab/blob/main/Colab-Intro.ipynb#scrollTo=X1eAzUL-twns). A Python tutorial is outside of the scope of this website. However, this website's "Further Resources" section offers many helpful Python resources for beginners.
 
 The video below walks through the basics of creating text cells in a Colab notebook, compiling them, creating code cells, and executing them.
 
-(INSERT VIDEO HERE)
+![Using Google Colab](Colab.mp4)

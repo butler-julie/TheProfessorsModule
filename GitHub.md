@@ -15,7 +15,7 @@ GitHub can be accessed at [https://github.com](https://github.com). The DSECOP m
 Each folder in this repository represents a different module. For this website, we will use the module "Intro_to_Data_Science_Libraries" as an example. This module, an introduction to data science libraries, can be found by clicking on the folder on the DSECOP GitHub page or by using [this link](https://github.com/GDS-Education-Community-of-Practice/DSECOP/tree/main/Intro_to_Data_Science_Libraries).
 
 ## Modules Contents on GitHub
-Each of the modules found on GitHub has three main components:
+Most of the modules found on GitHub has three main components:
 * a README file, which describes the modules with learning outcomes and suggestions from the developer
 * a data set (usually with a .tsv, .csv, or .txt file ending)
 * notebooks, which are named numerically in the order they are to be completed
@@ -34,7 +34,7 @@ To access either the notebooks or the data set, you have to click on the name. F
 
 A video walkthrough of accessing the DSECOP modules on GitHub is provided below. Note that there may be some differences in appearance with different browsers and operating systems, but the steps of accessing the modules will be the same.
 
-INSERT VIDEO HERE
+![GitHub Tutorial Video](GitHub.mp4)
 
 
 

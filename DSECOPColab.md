@@ -11,7 +11,7 @@ Once you click the button you should get a pop-up to open the copy in a new tab.
 
 The below video walks you through the process of taking a modules from the DSECOP GitHub website and creating an editable copy which will save your work on your Google Drive account.
 
-(INSERT VIDEO HERE)
+![Opening Module In Google Colab](DSECOP_Colab.mp4)
 
 ## Porting the Data to Your Google Drive Account
 
@@ -33,7 +33,7 @@ data_dir = '/content/gdrive/My Drive/SubFolder1/SubFolder2/'
 
 The below video walks through the process of downloading the data file from GitHub, uploading it to Drive, and changing the Colab notebook to reflect where the data file is located.
 
-(INSERT VIDEO HERE)
+![Uploading a Data File](DataFile.mp4)
 
 ## Distributing the Module to Students
 

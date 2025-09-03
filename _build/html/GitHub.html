@@ -64,7 +64,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Introduction to Google Colab" href="GoogleColab.html" />
-    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+    <link rel="prev" title="The Professor’s Module" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -151,7 +151,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    The Professor’s Module
                 </a>
             </li>
         </ul>
@@ -159,24 +159,15 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduction to GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="GoogleColab.html">Introduction to Google Colab</a></li>
-<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">Introduction to Jupyter Notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ColabVsJupyter.html">Google Colab versus Jupyter Notebooks</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Google Colab</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="DSECOPColab.html">Running DSECOP Modules with Google Colab</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Jupyter Notebooks</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="DSECOPJupyter.html">Running DSECOP Modules with Jupyter Notebooks</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tips and Advice</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tips and Resources</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="TipsAndAdvice.html">Tips and Advice for Implementing the DSECOP Modules in the Physics Classroom</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Other Helpful Resources</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Resources.html">Other Helpful Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Resources.html">Helpful Resources</a></li>
 </ul>
 
     </div>
@@ -347,7 +338,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -363,6 +356,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-github">What is GitHub?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-you-access-the-modules-on-github">How do you access the modules on GitHub?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modules-contents-on-github">Modules Contents on GitHub</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-github-resources">Further GitHub Resources</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -374,6 +378,38 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-github">
 <h1>Introduction to GitHub<a class="headerlink" href="#introduction-to-github" title="Permalink to this headline">#</a></h1>
+<section id="what-is-github">
+<h2>What is GitHub?<a class="headerlink" href="#what-is-github" title="Permalink to this headline">#</a></h2>
+<p>GitHub is a web-based platform for version control software Git. Git allows for distributed development of software across teams that allows users to manage and track code changes and collaborate. GitHub, besides providing an interface for developers using Git, allows for code sharing through the use of <em>repositories</em>. A repository is a container for a project. These repositories can hold the code for a project and images, videos, text files, PDF files, and much more. The DSECOP collaboration uses GitHub as a version control software to develop the modules collaboratively and as a code distribution platform for the finished modules. This webpage walks you through accessing the modules on the GitHub website. A video walkthrough is included at the end of this webpage, along with some resources for learning more about Git and GitHub.</p>
+<p>Note that you can access the modules on GitHub without creating an account, but to use some of the more advanced features of GitHub, you will need a free account.</p>
+</section>
+<section id="how-do-you-access-the-modules-on-github">
+<h2>How do you access the modules on GitHub?<a class="headerlink" href="#how-do-you-access-the-modules-on-github" title="Permalink to this headline">#</a></h2>
+<p>GitHub can be accessed at <a class="github reference external" href="https://github.com">github</a>. The DSECOP modules can be accessed at <a class="github reference external" href="https://github.com/GDS-Education-Community-of-Practice/DSECOP">GDS-Education-Community-of-Practice/DSECOP</a>. The main page will look like this, though the folder names will change and updates as more modules are added to the repository.</p>
+<p><img alt="GitHub DSECOP Homepage" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/GitHub_DSECOP.png?raw=true" /></p>
+<p>Each folder in this repository represents a different module. For this website, we will use the module “Intro_to_Data_Science_Libraries” as an example. This module, an introduction to data science libraries, can be found by clicking on the folder on the DSECOP GitHub page or by using <a class="reference external" href="https://github.com/GDS-Education-Community-of-Practice/DSECOP/tree/main/Intro_to_Data_Science_Libraries">this link</a>.</p>
+</section>
+<section id="modules-contents-on-github">
+<h2>Modules Contents on GitHub<a class="headerlink" href="#modules-contents-on-github" title="Permalink to this headline">#</a></h2>
+<p>Most of the modules found on GitHub has three main components:</p>
+<ul class="simple">
+<li><p>a README file, which describes the modules with learning outcomes and suggestions from the developer</p></li>
+<li><p>a data set (usually with a .tsv, .csv, or .txt file ending)</p></li>
+<li><p>notebooks, which are named numerically in the order they are to be completed</p></li>
+</ul>
+<p><em>Notebooks</em> are a file type that allows text to be interspersed with executable Python code. These are explained in more detail in the next section. The contents of the Introduction to Data Science Libraries are as follows:</p>
+<p><img alt="Introduction to Data Science Libraries" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/IntroDataScienceLibraries.png?raw=true" /></p>
+<p>There is only one notebook in this module (01_introduction_to_data_science_libraries.ipynb). If there was a second notebook in this module to be completed after the first, its name would start with a “02” prefix, the third notebook with a “03” prefix, and so on. The data file for this module is called “nuclear_data.tsv” and contains the data used by the notebook. The third file of this module, <a class="reference external" href="http://README.md">README.md</a>, describes the module provided by the developer. The README file will automatically open below the module’s contents for every module, as shown in the image below.</p>
+<p><img alt="README Location" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/README.png?raw=true" /></p>
+<p>To access either the notebooks or the data set, you have to click on the name. For example, clicking on the name of this module’s notebook (01_introduction_to_data_science_libraries.ipynb) brings up a preview of the notebook, shown below. Note that you can preview the notebook with all its code and outputs on GitHub, but you cannot change or run the code in this mode. To run and make changes to the code, you will need to use Google Colab, described in the next section.</p>
+<p><img alt="Notebook Preview" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/NotebookReview.png?raw=true" /></p>
+<p>A video walkthrough of accessing the DSECOP modules on GitHub is provided below. Note that there may be some differences in appearance with different browsers and operating systems, but the steps of accessing the modules will be the same.</p>
+<p><video src="_images/GitHub.mp4" title="GitHub Tutorial Video"><a href="_images/GitHub.mp4">GitHub Tutorial Video</a></video></p>
+</section>
+<section id="further-github-resources">
+<h2>Further GitHub Resources<a class="headerlink" href="#further-github-resources" title="Permalink to this headline">#</a></h2>
+<p>GitHub is much more than just a website to view repositories created by others. GitHub provides an [excellent set of tutorials])(<a class="reference external" href="https://docs.github.com/en/get-started/quickstart/hello-world">https://docs.github.com/en/get-started/quickstart/hello-world</a>) on using their full software. An easy way to download and modify code found on GitHub is through the <a class="reference external" href="https://desktop.github.com">GitHub desktop app</a>.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -413,7 +449,7 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to your Jupyter Book</p>
+        <p class="prev-next-title">The Professor’s Module</p>
       </div>
     </a>
     <a class="right-next"
@@ -434,6 +470,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-github">What is GitHub?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-you-access-the-modules-on-github">How do you access the modules on GitHub?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modules-contents-on-github">Modules Contents on GitHub</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-github-resources">Further GitHub Resources</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

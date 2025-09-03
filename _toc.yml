@@ -11,9 +11,7 @@ parts:
   - caption: Google Colab
     chapters:
     - file: DSECOPColab.md
-  - caption: Tips and Advice
+  - caption: Tips and Resources
     chapters:  
     - file: TipsAndAdvice.md
-  - caption: Other Helpful Resources
-    chapters:
     - file: Resources.md

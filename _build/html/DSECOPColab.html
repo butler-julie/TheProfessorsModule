@@ -63,8 +63,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'DSECOPColab';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Running DSECOP Modules with Jupyter Notebooks" href="DSECOPJupyter.html" />
-    <link rel="prev" title="Google Colab versus Jupyter Notebooks" href="ColabVsJupyter.html" />
+    <link rel="next" title="Tips and Advice for Implementing the DSECOP Modules in the Physics Classroom" href="TipsAndAdvice.html" />
+    <link rel="prev" title="Introduction to Google Colab" href="GoogleColab.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -159,24 +159,15 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="GitHub.html">Introduction to GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="GoogleColab.html">Introduction to Google Colab</a></li>
-<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">Introduction to Jupyter Notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ColabVsJupyter.html">Google Colab versus Jupyter Notebooks</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Google Colab</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Running DSECOP Modules with Google Colab</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Jupyter Notebooks</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="DSECOPJupyter.html">Running DSECOP Modules with Jupyter Notebooks</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tips and Advice</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tips and Resources</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="TipsAndAdvice.html">Tips and Advice for Implementing the DSECOP Modules in the Physics Classroom</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Other Helpful Resources</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Resources.html">Other Helpful Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Resources.html">Helpful Resources</a></li>
 </ul>
 
     </div>
@@ -371,7 +362,6 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-a-module-in-google-colab">Opening a Module in Google Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#porting-a-module-to-your-google-drive-account">Porting a Module to Your Google Drive Account</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#porting-the-data-to-your-google-drive-account">Porting the Data to Your Google Drive Account</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#distributing-the-module-to-students">Distributing the Module to Students</a></li>
 </ul>
@@ -389,20 +379,35 @@ document.write(`
 <h1>Running DSECOP Modules with Google Colab<a class="headerlink" href="#running-dsecop-modules-with-google-colab" title="Permalink to this headline">#</a></h1>
 <section id="opening-a-module-in-google-colab">
 <h2>Opening a Module in Google Colab<a class="headerlink" href="#opening-a-module-in-google-colab" title="Permalink to this headline">#</a></h2>
-<p>(INSERT VIDEO HERE)</p>
-</section>
-<section id="porting-a-module-to-your-google-drive-account">
-<h2>Porting a Module to Your Google Drive Account<a class="headerlink" href="#porting-a-module-to-your-google-drive-account" title="Permalink to this headline">#</a></h2>
-<p>Note that this requires you to have a Google Drive account and thus a Gmail address. If your school email does not have an attached Google account then you can make a Gmail account for free.</p>
-<p>(INSERT VIDEO HERE)</p>
+<p>At the top of every notebook in the DSECOP GitHub repository is a small icon which says “Open in Colab”. Clicking this link opens the notebook in Google Colab and allows you to edit the notebook and execute the code.</p>
+<p><img alt="Colab Symbol" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/Colab%20symbol.png?raw=true" /></p>
+<p>However, note that the notebook is currently in “Playground” mode. You can edit the notebook and run the code, but none of your changes will be saved. To save the changes you need to create a copy of the notebook in your Google Drive. There is a button in the top toolbar called “Copy to Drive”, which will create a copy of the  notebook in your Google Drive account that you can edit and save your changes. Note that this requires you to have a Google Drive account and thus a Gmail address. If your school email does not have an attached Google account then you can make a Gmail account for free.</p>
+<p>Once you click the button you should get a pop-up to open the copy in a new tab. This copy can now be edited, changed, and saved to your Google Drive account and moved around your Google Drive account just like any other file.</p>
+<p>The below video walks you through the process of taking a modules from the DSECOP GitHub website and creating an editable copy which will save your work on your Google Drive account.</p>
+<p><video src="_images/DSECOP_Colab.mp4" title="Opening Module In Google Colab"><a href="_images/DSECOP_Colab.mp4">Opening Module In Google Colab</a></video></p>
 </section>
 <section id="porting-the-data-to-your-google-drive-account">
 <h2>Porting the Data to Your Google Drive Account<a class="headerlink" href="#porting-the-data-to-your-google-drive-account" title="Permalink to this headline">#</a></h2>
-<p>(INSERT VIDEO HERE)</p>
+<p>Most of the modules come with a data file that is needed by the notebooks. For example, the Introduction to Data Science Libraries module has one data file, nuclear_data.tsv, which is used in the module’s notebook. This file needs to be downloaded from GitHub and then uploaded to your Google Drive account in order be used by the Colab notebook.</p>
+<p>To download a single data file from GitHub, the easiest way is to click on the data file in the GitHub file explorer (described on the GitHub page of this website), and use the three dots menu at the top of the data file preview to download the file, shown in the below image.</p>
+<p><img alt="Download Data File" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/DownloadDataFile.png?raw=true" /></p>
+<p>Once the data file is downloaded you can upload it to Google Drive using the “New” button in the top left corner and the “File upload” option. In the Colab notebook you will have to change a code cell to tell the notebook where to find the data file. For example, in the Introduction to Data Science Libraries notebook, the code to change to find the data file looks like this.</p>
+<p><img alt="Data File Location" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/ColabImports.png?raw=true" /></p>
+<p>As it is currently written, the code looks for the data file in the main Google Drive folder (/content/gdrive/My Drive/), which is the folder your see first when you go to <a class="reference external" href="https://drive.google.com/drive/u/0/my-drive">Google Drive</a>. If you placed the data file in a sub-folder, you can edit this line of code by adding the names of the sub-folder(s) after the last /. Thus the code could become:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">data_dir</span> <span class="o">=</span> <span class="s1">&#39;/content/gdrive/My Drive/SubFolder1/SubFolder2/&#39;</span>
+</pre></div>
+</div>
+<p>The below video walks through the process of downloading the data file from GitHub, uploading it to Drive, and changing the Colab notebook to reflect where the data file is located.</p>
+<p><video src="_images/DataFile.mp4" title="Uploading a Data File"><a href="_images/DataFile.mp4">Uploading a Data File</a></video></p>
 </section>
 <section id="distributing-the-module-to-students">
 <h2>Distributing the Module to Students<a class="headerlink" href="#distributing-the-module-to-students" title="Permalink to this headline">#</a></h2>
-<p>(INSERT VIDEO HERE)</p>
+<p>In terms of distributing the modules to students, there are to main options. First, the DSECOP GitHub page is publically avaliable. You could direct students to the specific module you wish to implement and give the students directions similar to the ones provided on this website in order to get the modules running on their Google accounts. This method works well if you wish to run the module as is with no changes.</p>
+<p>Alternatively, once you have the module on your Google account you can use Google’s link sharing system to provide a link to students. Clicking the “Share” button in the upper right corner of the Colab screen will bring up a pop-up with link sharing options. First, you need to change access from “Restricted” to “Anyone with the link” so you do not have to individually share the notebook with every student.</p>
+<p><img alt="Colab Share Menu 1" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/Google%20Share%201.png?raw=true" /></p>
+<p>Next, you want to make sure the access level is set to “Viewer” so the students cannot change your copy of the notebook. This is the default but its good to make sure.</p>
+<p><img alt="Colab Share Menu 2" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/Google%20Share%202.png?raw=true" /></p>
+<p>Students can then create a copy of the notebook in their own Google Drive account to edit. The data files can be distributed through email, a virtual classroom management system, or through Google link sharing as well. This method of sharing works well if you want to change the modules to better reflect your class and learning goals.</p>
 </section>
 </section>
 
@@ -438,20 +443,20 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="ColabVsJupyter.html"
+       href="GoogleColab.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Google Colab versus Jupyter Notebooks</p>
+        <p class="prev-next-title">Introduction to Google Colab</p>
       </div>
     </a>
     <a class="right-next"
-       href="DSECOPJupyter.html"
+       href="TipsAndAdvice.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Running DSECOP Modules with Jupyter Notebooks</p>
+        <p class="prev-next-title">Tips and Advice for Implementing the DSECOP Modules in the Physics Classroom</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -474,7 +479,6 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-a-module-in-google-colab">Opening a Module in Google Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#porting-a-module-to-your-google-drive-account">Porting a Module to Your Google Drive Account</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#porting-the-data-to-your-google-drive-account">Porting the Data to Your Google Drive Account</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#distributing-the-module-to-students">Distributing the Module to Students</a></li>
 </ul>
