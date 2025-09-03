@@ -63,7 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'GoogleColab';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Introduction to Jupyter Notebooks" href="JupyterNotebook.html" />
+    <link rel="next" title="Running DSECOP Modules with Google Colab" href="DSECOPColab.html" />
     <link rel="prev" title="Introduction to GitHub" href="GitHub.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
@@ -159,24 +159,15 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="GitHub.html">Introduction to GitHub</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduction to Google Colab</a></li>
-<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">Introduction to Jupyter Notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ColabVsJupyter.html">Google Colab versus Jupyter Notebooks</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Google Colab</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="DSECOPColab.html">Running DSECOP Modules with Google Colab</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Jupyter Notebooks</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="DSECOPJupyter.html">Running DSECOP Modules with Jupyter Notebooks</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tips and Advice</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tips and Resources</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="TipsAndAdvice.html">Tips and Advice for Implementing the DSECOP Modules in the Physics Classroom</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Other Helpful Resources</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Resources.html">Other Helpful Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Resources.html">Helpful Resources</a></li>
 </ul>
 
     </div>
@@ -374,7 +365,6 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-google-colab">What is Google Colab?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-access-google-colab">How to Access Google Colab</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-google-colab">How to Use Google Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#more-google-colab-practice">More Google Colab Practice</a></li>
 </ul>
             </nav>
         </div>
@@ -390,21 +380,30 @@ document.write(`
 <h1>Introduction to Google Colab<a class="headerlink" href="#introduction-to-google-colab" title="Permalink to this headline">#</a></h1>
 <section id="what-is-a-python-notebook">
 <h2>What is a Python Notebook?<a class="headerlink" href="#what-is-a-python-notebook" title="Permalink to this headline">#</a></h2>
+<p>A Python notebook, or a Jupyter notebook, combines markdown-enabled text and executable code in one document. It allows developers to intersperse code with text, equations, and figures. The DSECOP modules are all written using notebooks, where executable Python code <em>cells</em> can be interspersed with explanations and instructions, making for self-contained documents that provide explanations, code examples, and code practice all in one place.</p>
 </section>
 <section id="what-is-google-colab">
 <h2>What is Google Colab?<a class="headerlink" href="#what-is-google-colab" title="Permalink to this headline">#</a></h2>
+<p>Google Colab (or Google Colaboratory) is a cloud-based implementation for Python notebooks that has the most common Python libraries pre-installed. Google Colab has several benefits as a Python environment, especially for use in a classroom environment:</p>
+<ol class="arabic simple">
+<li><p>It is a web-based application, so as long as students can access the internet, Google Colab will run on any device. Though most DSECOP modules are not computationally intensive, having all students run the modules on Google Colab means that even those students who cannot afford powerful computers can quickly run all of the code.</p></li>
+<li><p>Most common Python libraries come pre-installed on Google Colab, eliminating students’ need to set up Python environments on their computers.</p></li>
+<li><p>Google Colab has all of the benefits of other Google software, including collaborative editing and link sharing, which makes it easy for students to work together on assignments and share them for a grade.</p></li>
+</ol>
+<p>Note that to use Google Colab, you need to have a Google account. Some university email accounts are Google-enabled, but if not, creating a Google account is free. <a class="reference external" href="https://support.google.com/accounts/answer/27441">This link</a> walks you through creating a Google account if you do not have one. If you have a Gmail email address, then you already have a Google account, and you can log in with the same information you use to access your Gmail account.</p>
 </section>
 <section id="how-to-access-google-colab">
 <h2>How to Access Google Colab<a class="headerlink" href="#how-to-access-google-colab" title="Permalink to this headline">#</a></h2>
-<p>(INSERT VIDEO HERE)</p>
+<p>There are two ways to create a new Google Colab notebook. First, Google Colab is available at <a class="reference external" href="https://colab.research.google.com">https://colab.research.google.com</a>. On the pop-up that appears, shown below, there are several example notebooks and a blue “New Notebook” button, creating a blank notebook.</p>
+<p><img alt="Colab Pop-Up" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/ColabStart.png?raw=true" /></p>
+<p>The second way to access Google Colab is through Google Drive, which can be accessed through <a class="reference external" href="https://drive.google.com/drive/u/0/my-drive">https://drive.google.com/drive/u/0/my-drive</a>. Once on Google Drive, the “New” button, followed by “More,” provides an option to create a blank notebook in Google Colab.</p>
+<p><img alt="Google Drive Menu" src="https://github.com/butler-julie/TheProfessorsModule/blob/main/Drive.png?raw=true" /></p>
 </section>
 <section id="how-to-use-google-colab">
 <h2>How to Use Google Colab<a class="headerlink" href="#how-to-use-google-colab" title="Permalink to this headline">#</a></h2>
-<p>(INSERT VIDEO HERE)</p>
-</section>
-<section id="more-google-colab-practice">
-<h2>More Google Colab Practice<a class="headerlink" href="#more-google-colab-practice" title="Permalink to this headline">#</a></h2>
-<p>(INSERT LINKS HERE)</p>
+<p>A Google Colab notebook is built of cells. Some of the cells are for executable Python code, and some of the cells are for compiled Markdown text. Google provides an overview of creating a Colab notebook <a class="reference external" href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">here</a> and an overview of Markdown <a class="reference external" href="https://colab.research.google.com/notebooks/markdown_guide.ipynb">here</a>. Maxim Ziatdinov and Mohammad Soltanieh-ha wrote another helpful resource for learning how to use Google Colab, and is available <a class="reference external" href="https://colab.research.google.com/github/soltaniehha/Intro-to-Colab/blob/main/Colab-Intro.ipynb#scrollTo=X1eAzUL-twns">here</a>. A Python tutorial is outside of the scope of this website. However, this website’s “Further Resources” section offers many helpful Python resources for beginners.</p>
+<p>The video below walks through the basics of creating text cells in a Colab notebook, compiling them, creating code cells, and executing them.</p>
+<p><video src="_images/Colab.mp4" title="Using Google Colab"><a href="_images/Colab.mp4">Using Google Colab</a></video></p>
 </section>
 </section>
 
@@ -449,11 +448,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="JupyterNotebook.html"
+       href="DSECOPColab.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introduction to Jupyter Notebooks</p>
+        <p class="prev-next-title">Running DSECOP Modules with Google Colab</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -479,7 +478,6 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-google-colab">What is Google Colab?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-access-google-colab">How to Access Google Colab</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-google-colab">How to Use Google Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#more-google-colab-practice">More Google Colab Practice</a></li>
 </ul>
   </nav></div>
 
