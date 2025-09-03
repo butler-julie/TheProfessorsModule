@@ -9,9 +9,6 @@ However, note that the notebook is currently in "Playground" mode. You can edit 
 
 Once you click the button you should get a pop-up to open the copy in a new tab. This copy can now be edited, changed, and saved to your Google Drive account and moved around your Google Drive account just like any other file.
 
-The below video walks you through the process of taking a modules from the DSECOP GitHub website and creating an editable copy which will save your work on your Google Drive account.
-
-![Opening Module In Google Colab](DSECOP_Colab.mp4)
 
 ## Porting the Data to Your Google Drive Account
 
@@ -31,9 +28,6 @@ As it is currently written, the code looks for the data file in the main Google 
 data_dir = '/content/gdrive/My Drive/SubFolder1/SubFolder2/'
 ```
 
-The below video walks through the process of downloading the data file from GitHub, uploading it to Drive, and changing the Colab notebook to reflect where the data file is located.
-
-![Uploading a Data File](DataFile.mp4)
 
 ## Distributing the Module to Students
 
